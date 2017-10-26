@@ -27,6 +27,7 @@ public class Driver extends LinearOpMode {
         while(opModeIsActive()) {
             leftMotor.setPower(gamepad1.left_stick_y);
             rightMotor.setPower(gamepad1.right_stick_y);
+            
         }
     }
 }
